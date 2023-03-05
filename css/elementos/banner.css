@@ -1,0 +1,104 @@
+.banner__principal{
+    display: flex;
+    padding: 5rem;
+    background-color: black;
+    overflow: hidden;
+    justify-content: space-between;
+}
+.banner__imagen{
+    width: 400px;
+    height: 400px;
+    border-radius: 200px;
+    rotate: 1deg;
+    margin-right: 10rem;
+}
+.banner__info-titulo{
+    color: rgb(207,226,30);
+    margin: 0;
+    font-family: Montserrat, sans serif;
+    font-weight:700;
+    font-size: 1.5rem;
+}
+.banner__titulo{
+    color:white;
+    font-size: 6rem;
+    font-family: Lilita One;
+    font-weight: 100;
+}
+.banner__descripcion{
+    color: rgb(207,226,30);
+    margin: 0;
+    font-family: Montserrat, sans serif;
+    font-weight:700;
+    font-size: 1.5rem;
+}
+.banner__links{
+   justify-content: center;
+    display:flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.banner__links-icono{
+    margin-right: 2.5rem;
+    font-size: 2rem;
+    color: white;
+}
+.banner__links-contenido{
+    margin-left: 2.5rem;
+}
+
+@media screen and (min-width:360px){
+    .banner__principal{
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner__info-titulo{
+        font-size: 1rem;
+    }
+    .banner__imagen{
+        margin-top: 45px;
+        margin-left: 10rem;
+        width: 350px; 
+        height: 350px; 
+    }
+    .banner__titulo{
+        font-size: 4rem;
+    }
+    .banner__links-contenido{
+        margin-left: 0;
+        display: flex;
+        
+    }
+}
+@media screen and (min-width:768px){
+    .banner__principal{
+        flex-direction: row;
+        
+    }
+    .banner__info-titulo{
+        font-size: 1.5rem;
+    }
+    .banner__imagen{
+        margin-top: 25px;
+        margin-left: 3rem;
+        width: 300px; 
+        height: 300px; 
+    }
+    .banner__titulo{
+        font-size: 6rem;
+    }
+    .banner__links-contenido{
+        margin-left: 2.5rem;
+        display: flex;
+        
+    }
+}
+@media screen and (min-width:1080px){
+    .banner__imagen{
+        margin-left: 10rem;
+        margin-top: 5rem;
+        width: 400px; 
+        height: 400px; 
+
+    }
+}
