@@ -1,0 +1,14 @@
+.home__container{
+    background-color: #100c24;
+    padding: 2.5rem;
+}
+.home__titulo{
+color:rgb(207,226,30);
+font-family: Montserrat, sans serif;
+font-size: 3rem;
+font-weight: 800;
+}
+.home__descripcion{
+color: white;
+font-family: Montserrat, sans serif;
+}

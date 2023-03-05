@@ -1,0 +1,132 @@
+
+.header__container{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid rgb(207, 226, 30);
+}
+.header__principal{
+    display: flex;
+    padding: 5rem;
+    justify-content: space-between;
+    
+}
+.header__links{
+    display: flex;
+    gap: 40px;
+}
+.header__nav-list{
+    display: flex;
+    gap:40px;
+    list-style: none;
+}
+
+.header__nav-link{
+    color: #f5f5f5;
+    text-decoration: none;
+    font-family: Montserrat, sans serif;
+}
+.header__nav-link:hover{
+    color: rgb(207, 226, 30);
+    transition: 1s;
+}
+.header__titulo{
+    color: #f5f5f5;
+    font-family: Montserrat, sans serif;
+    
+}
+.icono__nav-header{
+    color: white;
+    cursor: pointer;
+    margin-right: 3px;
+}
+.icono__titulo-header{
+    margin-right: 1rem;
+    color:rgb(207, 226, 30) ;
+}
+.header__cv-button{
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color:rgb(207, 226, 30);
+    padding: 1rem;
+    font-family: Montserrat, sans serif;
+}
+.header__cv-button:hover{
+    background-color: black;
+    color: white;
+    border-color: rgb(207, 226, 30);
+    transition: 0.5s;
+}
+
+@media screen and (min-width:368px){
+    .header__container{
+        width: 100%;
+        height: 300px;
+        
+    }
+    .header__principal{
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+    }
+    .header__nav-list{
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .header__titulo{
+        font-size: 25px;
+    }
+    .header__cv-button{
+        margin-top: 4rem;
+        margin-left: 3rem;
+        height: 5rem;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .header__titulo{
+        display: none;
+    }
+}
+@media screen and (min-width:768px){
+    .header__container{
+        width: 100%;
+        height: 100px;
+        align-items: center;
+    }
+    .header__principal{
+        flex-direction: row;
+        align-items: center;
+        padding: 1rem;
+        margin-bottom: 1rem;
+    }
+    .header__nav-list{
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+        font-size: 12px;
+    }
+    .header__titulo{
+        font-size: 25px;
+        display: block;
+        
+    }
+    .header__cv-button{
+        margin-top: 0.5rem;
+        margin-left: 0rem;
+        height: 60px;
+    }
+}
+@media screen and (min-width:1080px){
+    .header__nav-list{
+        font-size: 20px;
+    }
+    .header__container{
+        position: fixed;
+        z-index: 2;
+    }
+    .header__titulo{
+        font-size: 2rem;
+    }
+}
