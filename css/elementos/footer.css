@@ -1,0 +1,14 @@
+body{background-color: black;}
+.footer__container{
+    background-color: black;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    max-width: 75rem;
+    overflow: hidden;
+}
+.footer__texto{
+    color: rgb(207,226,30);
+    font-family: Montserrat, sans serif;
+    text-align: center;
+}

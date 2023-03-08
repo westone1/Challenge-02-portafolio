@@ -30,7 +30,8 @@
     align-items: center;
 }
 .formacion__imagen-icono{
-    width: 300px;
+    width: 250px;
+    margin-left: 30px;
 }
 .ipae__imagen{
     margin-left: 35px;
@@ -49,11 +50,26 @@
     .formacion__lista{
         flex-direction: column;
     }
+    .formacion__imagen{
+        width:150px ;
+        height:150px ;
+    }
+    .formacion__imagen-icono{
+        width: 100px;
+    }
 }
 @media screen and (min-width:768px) {
     .formacion__lista{
         flex-direction: row;
         flex-wrap: wrap;
         align-items: center;
+    }
+    .formacion__imagen{
+        width:300px ;
+        height:300px ;
+    }
+    .formacion__imagen-icono{
+        width: 250px;
+        margin-left: 0px;
     }
 }

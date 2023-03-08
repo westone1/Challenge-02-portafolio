@@ -19,7 +19,11 @@
     <link rel="stylesheet" href="css/elementos/banner.css">
     <link rel="stylesheet" href="css/elementos/home.css">
     <link rel="stylesheet" href="css/elementos/skills.css">
+    <link rel="stylesheet" href="css/elementos/hobbies.css">
     <link rel="stylesheet" href="css/elementos/formacion.css">
+    <link rel="stylesheet" href="css/elementos/proyectos.css">
+    <link rel="stylesheet" href="css/elementos/contacto.css">
+    <link rel="stylesheet" href="css/elementos/footer.css">
     <title>Diego Berdejo</title>
 
 </head>
@@ -36,7 +40,7 @@
                                     class="icono__nav-header fa-solid fa-house"></i>Home</a>
                         </li>
                         <li class="header__nav-item">
-                            <a class="header__nav-link" href="#skills-hobbies"><i
+                            <a class="header__nav-link" href="#skills-section"><i
                                     class="icono__nav-header fa-solid fa-star"></i>Skills</a>
                         </li>
                         <li class="header__nav-item">
@@ -49,7 +53,7 @@
                         </li>
                     </ul>
                 </nav>
-                <button class="header__cv-button">Ver Cv</button>
+                <a href="cv/CV -Diego-Berdejo.pdf" download="cv-diego-berdejo" class="header__cv-button">Ver Cv</a>
             </div>
         </div>
     </header>
@@ -60,14 +64,14 @@
                     <p class="banner__info-titulo">Hola! Mi nombre es</p>
                     <h2 class="banner__titulo">Diego<br>Berdejo</h2>
                     <p class="banner__descripcion">Desarrollador FRONT-END</p>
-                <div class="banner__links">
+                    <div class="banner__links">
                         <div class="banner__links-contenido">
                             <a class="banner__links-icono" href="#"><i class="fa-brands fa-instagram"></i></a>
                             <a class="banner__links-icono" href="#"><i class="fa-brands fa-linkedin"></i></a>
                             <a class="banner__links-icono" href="#"><i class="fa-brands fa-github"></i></a>
                         </div>
+                    </div>
                 </div>
-                </div>  
                 <div class="banner__container-imagen">
                     <img class="banner__imagen" src="img/foto-perfil.jpeg" alt="foto-diego-berdejo">
                 </div>
@@ -76,40 +80,63 @@
         <section>
             <div class="home__container">
                 <h2 class="home__titulo">Sobre mi</h2>
-                <p class="home__descripcion">Actualmente estoy en formacion en la especialidad de FRONT-END, siempre me ha interesado la programacion en general.</p>  
+                <p class="home__descripcion">Actualmente estoy en formacion en la especialidad de FRONT-END, siempre me
+                    ha interesado la programacion en general.</p>
                 <p class="home__descripcion">A demas tengo 4 ciclos cursados de la carrera de marketing.</p>
                 <p class="home__descripcion">Manejo un emprendimineto de alimentos envasados.</p>
-                <p class="home__descripcion">Y siempre me mantengo en constante aprendizaje y actualizacion de mis conocimientos.</p>   
+                <p class="home__descripcion">Y siempre me mantengo en constante aprendizaje y actualizacion de mis
+                    conocimientos.</p>
             </div>
         </section>
-        <section id="skills-hobbies">
+        <section id="skills-section">
             <div class="skills__container">
                 <h2 class="skills__titulo">Skills</h2>
                 <ul class="skills__lista">
-                    <li class="skills__lista-item"><i class="skills__lista-cono fa-brands fa-css3-alt"></i><p>CSS3</p></li>
-                    <li class="skills__lista-item"><i class="skills__lista-cono fa-brands fa-html5"></i><p>HHTML5</p></li>
-                    <li class="skills__lista-item"><i class="skills__lista-cono fa-brands fa-square-js"></i><p>JS</p></li>
-                    <li class="skills__lista-item"><i class="skills__lista-cono fa-brands fa-github"></i><p>GITHUB</p></li>
+                    <li class="skills__lista-item"><i class="skills__lista-cono fa-brands fa-css3-alt"></i>
+                        <p>CSS3</p>
+                    </li>
+                    <li class="skills__lista-item"><i class="skills__lista-cono fa-brands fa-html5"></i>
+                        <p>HTML5</p>
+                    </li>
+                    <li class="skills__lista-item"><i class="skills__lista-cono fa-brands fa-square-js"></i>
+                        <p>JAVASCRIPT</p>
+                    </li>
+                    <li class="skills__lista-item"><i class="skills__lista-cono fa-brands fa-github"></i>
+                        <p>GITHUB</p>
+                    </li>
                 </ul>
 
             </div>
-            <div class="skills__container">
-                <h2 class="skills__titulo">Hobbies</h2>
-                <ul class="skills__lista"> 
-                    <li class="skills__lista-item"><i class="skills__lista-cono fa-sharp fa-solid fa-person-snowboarding"></i></i>Patinaje</li>
-                    <li class="skills__lista-item"><i class="skills__lista-cono fa-sharp fa-solid fa-bicycle"></i>Bicicleta</li>
-                    <li class="skills__lista-item"><i class="skills__lista-cono fa-sharp fa-solid fa-music"></i>Musica</li>
-                    <li class="skills__lista-item"><i class="skills__lista-cono fa-sharp fa-solid fa-gamepad"></i>Juegos</li>
+        </section>
+
+        <section id="hobbies">
+            <div class="hobbies__container">
+                <h2 class="hobbies__titulo">Hobbies</h2>
+                <ul class="hobbies__lista">
+                    <li class="hobbies__lista-item"><i
+                            class="skills__lista-cono fa-sharp fa-solid fa-person-snowboarding"></i>
+                        <p>Patinaje</p>
+                    </li>
+                    <li class="hobbies__lista-item"><i class="skills__lista-cono fa-sharp fa-solid fa-bicycle"></i>
+                        <p> Bicicleta</p>
+                    </li>
+                    <li class="hobbies__lista-item"><i class="skills__lista-cono fa-sharp fa-solid fa-music"></i>
+                        <p> Musica</p>
+                    </li>
+                    <li class="hobbies__lista-item"><i class="skills__lista-cono fa-sharp fa-solid fa-gamepad"></i>
+                        <p> Juegos</p>
+                    </li>
                 </ul>
             </div>
         </section>
+
         <section id="formacion">
             <div class="formacion__container">
                 <h2 class="formacion__titulo">Formacion Academica</h2>
                 <ul class="formacion__lista">
                     <li class="formacion__lista-item">
                         <div class="formacion__imagen">
-                            <img class="ipae__imagen" src="img/ipae.png" alt="Zegelpae">
+                            <img class="formacion__imagen-icono" src="img/ipae.png" alt="Zegelpae">
                         </div>
                         <div class="formacion__descripcion">
                             <h2 class="formacion__titulo-item">Zegel Ipae</h2>
@@ -118,7 +145,7 @@
                     </li>
                     <li class="formacion__lista-item">
                         <div class="formacion__imagen">
-                            <img src="img/idat.png" alt="Idat">
+                            <img class="formacion__imagen-icono" src="img/idat.png" alt="Idat">
                         </div>
                         <div class="formacion__descripcion">
                             <h2 class="formacion__titulo-item">Idat</h2>
@@ -134,12 +161,68 @@
                             <p class="formacion__info">Actualidad</p>
                         </div>
                     </li>
-                    
-                    
             </div>
-            </section>
-            
+        </section>
+        <section id="proyectos">
+            <div class="proyectos__principal">
+                <h2 class="proyectos__titulo">Proyectos</h2>
+                <div class="proyectos__container">
+                    <div class="proyectos__info">
+                        <div class="proyectos__imagen-container"><img class="proyectos__imagen"
+                                src="img/foto-encriptador.png" alt="proyecto-imagen"></div>
+                        <h2 class="proyectos__titulo-descripcion">Encriptador de texto</h2>
+                        <p class="proyectos__descripcion">Challenge Alura 01</p>
+                        <button onclick="location.href='https://github.com/westone1/CHALLENGE01'"
+                            class="proyectos__boton">Repositorio</button>
+                        <button onclick="location.href='https://westone1.github.io/CHALLENGE01/'"
+                            class="proyectos__boton">Demo</button>
+                    </div>
+                    <div class="proyectos__info">
+                        <img class="proyectos__imagen" src="img/foto-portafolio.png" alt="proyecto-imagen">
+                        <h2 class="proyectos__titulo-descripcion">Portafolio Personal</h2>
+                        <p class="proyectos__descripcion">Challenge Alura 02</p>
+                        <button onclick="location.href='https://github.com/westone1/Challenge-02-portafolio'"
+                            class="proyectos__boton">Repositorio</button>
+                        <button onclick="location.href='https://westone1.github.io/Challenge-02-portafolio/'"
+                            class="proyectos__boton">Demo</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contacto">
+            <div class="formulario__container">
+                <h2 class="formulario__titulo">Contacto</h2>
+                <section>
+                    <form class="formulario">
+                        <div class="input">
+                            <label for="">Nombre</label>
+                            <input type="text" name="" id="" placeholder="Ingrese su nombre">
+                        </div>
+                        <div class="input">
+                            <label for="">E-mail</label>
+                            <input type="text" name="" id="" placeholder="Ingrese su correo">
+                        </div>
+                        <div class="input">
+                            <label for="">Asunto</label>
+                            <input type="text" name="" id="" placeholder="Ingrese el asunto">
+                        </div>
+                        <div class="input">
+                            <label for="">Mensaje</label>
+                            <textarea name="mensaje" id="" cols="30" rows="10"
+                                placeholder="Ingrese su mensaje"></textarea>
+                        </div>
+
+                        <button class="formulario__boton" type="submit">Enviar</button>
+                    </form>
+                </section>
+            </div>
+            </form>
     </main>
+    <footer class="footer">
+        <div class="footer__container">
+            <p class="footer__texto">Sitio creado por Diego Berdejo</p>
+        </div>
+    </footer>
 </body>
 
 </html>
