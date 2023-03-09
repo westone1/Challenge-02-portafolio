@@ -49,6 +49,7 @@
 @media screen and (min-width:368px) {
     .formacion__lista{
         flex-direction: column;
+        margin-left: 100px;
     }
     .formacion__imagen{
         width:150px ;
