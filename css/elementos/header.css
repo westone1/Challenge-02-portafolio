@@ -77,6 +77,10 @@
         flex-wrap: wrap;
         flex-direction: column;
     }
+    .header__cv-button{
+        margin-top: 50px;
+        height: 20px;
+    }
 }
 @media screen and (min-width:368px){
     .header__container{
